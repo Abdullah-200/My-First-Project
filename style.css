@@ -207,7 +207,7 @@ section{
 .Video-Editor{
     color: #000000;
 }
-.MOTION-GRAPHIC{
+.AI-AUTOMATION{
     color: #000000;
 }
 .WEB-DEVELOPMENT{
@@ -257,6 +257,27 @@ section{
     padding: 0 12px 0 0;
 
 }
+.service-list{
+    list-style: none;
+    text-align: left;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(1,1,1,15%);
+}
+.service-list li{
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+.service-list li::before{
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #0d4dff;
+    font-weight: 700;
+}
+
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
